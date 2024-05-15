@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment2</title>
+    <style>
+      body {
+        background-color: rgb(33, 129, 232);
+      }
+      nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+      }
+      .nav-links {
+        display: flex;
+        align-items: center;
+      }
+      .nav-links a {
+        margin-right: 20px;
+        text-decoration: none;
+        color: #333;
+        font-size: 20px;
+      }
+      .nav-links a:hover {
+        color: white;
+      }
+
+      .container {
+        margin-top: 5%;
+        padding: 20px;
+      }
+      h2 {
+        margin-bottom: 20px;
+        text-align: center;
+      }
+      .container-row {
+        display: flex;
+        row-gap: 10px;
+        column-gap: 200px;
+        justify-content: center;
+        align-items: center;
+      }
+      .Box {
+        border: 1px solid white;
+        width: 250px;
+        height: 200px;
+        text-align: center;
+      }
+      .text {
+        position: relative;
+        top: 160px;
+      }
+      .img {
+        border: 1px solid white;
+        width: 500px;
+        height: 400px;
+        text-align: center;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar  -->
+    <nav>
+      <div class="nav-links">
+        <a href="#">Name</a>
+      </div>
+      <div class="nav-links">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contacts</a>
+      </div>
+    </nav>
+    <!-- Navbar end -->
+
+    <!--Categories container  -->
+    <div class="container">
+      <h2>Categories</h2>
+      <div class="container-row">
+        <div class="Box">
+          <div class="text">Card 3</div>
+        </div>
+        <div class="Box">
+          <div class="text">Card 3</div>
+        </div>
+        <div class="Box">
+          <div class="text">Card 3</div>
+        </div>
+      </div>
+    </div>
+    <!--Categories container ends  -->
+    <div class="container">
+      <div class="container-row">
+        <div class="img">
+          <div class="imge">image</div>
+        </div>
+        <div class="text-box">
+          <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <br />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
