@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.tabs {
+  display: flex;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.tab {
+  padding: 10px 20px;
+  background-color: #06a8ff;
+  border: 1px solid #000000;
+  border-bottom: none;
+  margin-right: 5px;
+}
+
+.tab:hover {
+  background-color: #f4fd00;
+}
+
+.tab-content {
+  display: none;
+  padding: 20px;
+  border: 2px solid #000000;
+  background-color: #00d5ff;
+}
+
+.tab-content.active {
+  display: block;
+}
